@@ -38,3 +38,9 @@ Feed data directly from python, receive results back into python. Real time.
 Feed data directly from python, receive results back into python. Real time.
 3. Create an asynchronous Analysis Job.
 Feed the data from an S3 bucket. The results are saved into an S3 bucket. More powerful, but a lot more involved.
+
+Reference. 
+
+Boto3 S3: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/comprehend.html  
+
+Boto3 Comprehend: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html
