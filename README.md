@@ -20,7 +20,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user.html?i
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
 
 ## AWS Comprehend Cost
-* Free AWS Tier: Limit 50K units (5M characters) a month, $1 per 10K above.*
+** Free AWS Tier: Limit 50K units (5M characters) a month, $1 per 10K units after that.**
 1 unit is 100 characters, and every tweet is ~2 units. 
 In a scheduled job I am analyzing 1K tweets at once, so the free tier runs out fast. Be sure to check pricing before you proceed.
 
