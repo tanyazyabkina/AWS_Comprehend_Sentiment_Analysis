@@ -14,6 +14,7 @@ Steps:
 3. Create and download access keys
 4. Use AWS CLI (Command Line Interface) to create environment variabes folder
 5. Install BOTO3 package
+
 References:
 https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user.html?icmpid=docs_iam_console
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
@@ -22,6 +23,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html
 * Free AWS Tier: Limit 50K units (5M characters) a month, $1 per 10K above.*
 1 unit is 100 characters, and every tweet is ~2 units. 
 In a scheduled job I am analyzing 1K tweets at once, so the free tier runs out fast. Be sure to check pricing before you proceed.
+
 Reference:
 https://aws.amazon.com/comprehend/pricing/
 
